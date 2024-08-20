@@ -1,0 +1,107 @@
+/* styles.css */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-details-form {
+    background: white;
+    padding: 40px; /* Tăng giá trị padding để làm cho form to hơn */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Tăng độ mờ đổ bóng */
+    max-width: 600px; /* Đặt chiều rộng tối đa để tránh làm mất đi tính tương thích trên các màn hình lớn */
+    width: 100%; /* 100% chiều rộng để đảm bảo hiển thị đầy đủ nội dung */
+  }
+
+  .close-button {
+    background-color: #e74c3c; /* Màu nền đỏ */
+    color: white; /* Màu chữ trắng */
+    border: none;
+    padding: 10px 20px; /* Điều chỉnh padding cho kích thước nút */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .add-button {
+    background-color: #3ce745; /* Màu nền đỏ */
+    color: white; /* Màu chữ trắng */
+    border: none;
+    padding: 10px 20px; /* Điều chỉnh padding cho kích thước nút */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .close-button:hover {
+    background-color: #2bc067; /* Màu nền đỏ đậm khi di chuột qua */
+  }
+  .add-button:hover {
+    background-color: #2bc064; /* Màu nền đỏ đậm khi di chuột qua */
+  }
+  /* modal */
+  .modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px; /* Hoặc bất kỳ giá trị nào phù hợp với thiết kế của bạn */
+    max-width: 700px; /* Đặt giá trị max-width để tránh làm mất điện thoại quá mức */
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.3);
+  
+  }
+  
+  .close-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .add-button {
+    background-color: #34d0db;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .custom-input {
+    width: 500px;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Nếu muốn thêm định dạng cho các label */
+  .custom-tbody label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  /* readOnly Input */
+  .read-only-input {
+    background-color: #e0e0e0; /* Màu nền sậm hơn khi readOnly */
+    color: #333; /* Màu chữ của input khi readOnly */
+    /* Bất kỳ quy tắc CSS khác mà bạn muốn áp dụng cho input readOnly */
+}
+  
+  
+  

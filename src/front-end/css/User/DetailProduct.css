@@ -1,0 +1,47 @@
+.scroll-container {
+    overflow-x: scroll;
+    /* Tạo thanh cuộn ngang */
+    white-space: nowrap;
+    /* Ngăn xuống dòng */
+    padding: 10px;
+    /* Thêm khoảng cách bên trong */
+    border: 2px solid #ccc;
+    /* Thêm viền */
+    background-color: #f9f9f9;
+    /* Thêm màu nền */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Thêm bóng đổ */
+    border-radius: 8px;
+    /* Bo tròn các góc */
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 12px;
+    /* Chiều cao của thanh cuộn */
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Màu của thanh cuộn */
+    border-radius: 4px;
+    /* Bo tròn các góc của thanh cuộn */
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Màu của thanh cuộn khi hover */
+}
+
+.item {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+
+    margin-right: 10px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 8px;
+    /* Bo tròn các góc */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Thêm bóng đổ */
+}

@@ -1,0 +1,150 @@
+/* ------------------- ------------------------- ------------------------- */
+/* CSS for Sidebar */
+
+.category-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.category-link {
+  display: inline-block;
+  padding: 5px 10px; /* Adjust padding as needed */
+  background-color: #f0f0f0; /* Adjust background color as needed */
+  border-radius: 5px; /* Adjust border radius as needed */
+  text-decoration: none;
+  color: #333; /* Adjust text color as needed */
+}
+
+.category-link:hover {
+  background-color: #ddd; /* Adjust hover background color as needed */
+}
+
+
+
+
+/* -------------------- -------------------------- ---------------------------------
+---------------------------------- CSS for phân trang---------------------------------------------- */
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.pagination li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+.pagination li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination li.active a {
+  background-color: #59902f;
+  color: white;
+  border-radius: 5px;
+}
+
+
+  /* -------------------- -------------------------- ---------------------------------
+---------------------------------- CSS for cmt---------------------------------------------- */
+
+.main-wrapper {
+  background-color: #f9f9f9;
+  padding: 2rem 0;
+}
+
+.blog-wrap {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.blog-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+.blog-item-meta {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.comment-form, .reply-form {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.comment-form textarea, .reply-form textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+}
+
+.comment-form button, .reply-form button {
+  background-color: #59902f;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.comment-form button:hover, .reply-form button:hover {
+  background-color: #59902f;
+}
+
+.comment-area {
+  margin-top: 3rem;
+}
+
+.comment-area-box {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.comment-meta {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.comment-meta a {
+  color: #59902f;
+  cursor: pointer;
+}
+
+.comment-meta a:hover {
+  color: #59902f;
+}
+
+.comment-content {
+  margin-top: 1rem;
+}
+
+.comment-tree {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.blog-content {
+  /* Add styles as needed */
+  white-space: pre-wrap; /* Preserves whitespace and line breaks */
+}
+
